@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 
-const MONGODB_URL =
-  "mongodb+srv://root:root@cluster0.8nq6xvf.mongodb.net/nodecrud";
+const MONGODB_URL ="your db";
 
 export const connectDB = async () => {
   try {
